@@ -282,86 +282,86 @@ public class Main {
 
                      switch (opcion4){
                          case 1:
-                             System.out.println("--------------------------------------------------- ");
-                             System.out.println("-                  ARITMETICOS                     -");
-                             System.out.println("--------------------------------------------------- ");
-                             System.out.println(" + int suma = 5+3; suma dos operandos.Resultado:8   ");
-                             System.out.println(" - int resta = 5-3; resta el segundo operando del   ");
-                             System.out.println("   primero.Resultado:2                              ");
-                             System.out.println(" * int multiplicacion=5*3; multiplica dos operandos.");
-                             System.out.println("   Resultado:15                                     ");
-                             System.out.println(" / int division = 6/3; divide el primer operando por");
-                             System.out.println("   el segundo.Resultado:2                           ");
-                             System.out.println(" % int modulo=5%3; devuelve el resto de la división ");
-                             System.out.println("   del primer operando por el segundo.Resultado:2   ");
-                             System.out.println("---------------------------------------------------");
+                             System.out.println("--------------------------------------------------------");
+                             System.out.println("-                      ARITMETICOS                     -");
+                             System.out.println("--------------------------------------------------------");
+                             System.out.println("| + | int suma = 5+3 | suma dos operandos.Resultado:8   ");
+                             System.out.println("| - | int resta = 5-3| resta el segundo operando del    ");
+                             System.out.println("|     primero.Resultado:2                               ");
+                             System.out.println("| * | int multiplicacion=5*3 | multiplica dos operandos.");
+                             System.out.println("|     Resultado:15                                      ");
+                             System.out.println("| / | int division = 6/3 | divide el primer operando por");
+                             System.out.println("|     el segundo.Resultado:2                            ");
+                             System.out.println("| % | int modulo=5%3 | devuelve el resto de la división ");
+                             System.out.println("|     del primer operando por el segundo.Resultado:2    ");
+                             System.out.println("--------------------------------------------------------");
                              break;
                          case 2:
-                             System.out.println("------------------------------------------------------");
-                             System.out.println("-                  RELACIONALES                      -");
-                             System.out.println("------------------------------------------------------");
-                             System.out.println(" == boolean esIgual=(5==3); comprueba si los valores  ");
-                             System.out.println("    de dos operandos son iguales.Resultado:false      ");
-                             System.out.println(" != boolean noEsIgual=(5!=3); comprueba si los valores");
-                             System.out.println("    de dos operandos no son iguales.Resultado:true"    );
-                             System.out.println(" > boolean mayor=(5>3); comprueba si el valor del     ");
-                             System.out.println("   primer operando es mayor que el segundo.           ");
-                             System.out.println("   Resultado:true                                     ");
-                             System.out.println(" < boolean menor=(5<3); comprueba si el valor del     ");
-                             System.out.println("   primer operando es menor que el segundo.           ");
-                             System.out.println("   Resultado:false                                    ");
-                             System.out.println(" >= boolean mayorOIgual=(5>=3); comprueba si el valor ");
-                             System.out.println("    del primer operando es mayor o igual que el segundo");
-                             System.out.println("    Resultado:true                                    ");
-                             System.out.println(" <= boolean menorOIgual=(5<=3); comprueba si el valor ");
-                             System.out.println("    del primer operando es menor o igual que el segundo");
-                             System.out.println("    Resultado:false                                   ");
-                             System.out.println("------------------------------------------------------");
+                             System.out.println("-----------------------------------------------------------");
+                             System.out.println("-                       RELACIONALES                      -");
+                             System.out.println("-----------------------------------------------------------");
+                             System.out.println("| == | boolean esIgual=(5==3) | comprueba si los valores   ");
+                             System.out.println("|    de dos operandos son iguales.Resultado:false          ");
+                             System.out.println("| != | boolean noEsIgual=(5!=3) | comprueba si los valores ");
+                             System.out.println("|    de dos operandos no son iguales.Resultado:true        ");
+                             System.out.println("| >  | boolean mayor=(5>3) | comprueba si el valor del     ");
+                             System.out.println("|      primer operando es mayor que el segundo.            ");
+                             System.out.println("|      Resultado:true                                      ");
+                             System.out.println("| <  | boolean menor=(5<3) | comprueba si el valor del     ");
+                             System.out.println("|      primer operando es menor que el segundo.            ");
+                             System.out.println("|      Resultado:false                                     ");
+                             System.out.println("| >= | boolean mayorOIgual=(5>=3) | comprueba si el valor  ");
+                             System.out.println("|      del primer operando es mayor o igual que el segundo ");
+                             System.out.println("|      Resultado:true                                      ");
+                             System.out.println("| <= | boolean menorOIgual=(5<=3) | comprueba si el valor  ");
+                             System.out.println("|      del primer operando es menor o igual que el segundo ");
+                             System.out.println("|      Resultado:false                                     ");
+                             System.out.println("-----------------------------------------------------------");
                              break;
                          case 3:
-                             System.out.println("--------------------------------------------------------");
-                             System.out.println("-                  LOGICOS                             -");
-                             System.out.println("--------------------------------------------------------");
-                             System.out.println(" && boolean resultado=(5>3&&3<4); devuelve true si ambos");
-                             System.out.println("    operandos son true.Resultado:true                   ");
-                             System.out.println(" || boolean resultado=(5>3||3<4); devuelve true si al   ");
-                             System.out.println("    menos una de ellas es true                          ");
-                             System.out.println(" ! boolean resultado =!(5>3); invierte el valor de un   ");
-                             System.out.println("   operando booleano.Resultado:false                    ");
-                             System.out.println("--------------------------------------------------------");
+                             System.out.println("-------------------------------------------------------------");
+                             System.out.println("-                       LOGICOS                             -");
+                             System.out.println("-------------------------------------------------------------");
+                             System.out.println("| && | boolean resultado=(5>3&&3<4) | devuelve true si ambos ");
+                             System.out.println("|      operandos son true.Resultado:true                     ");
+                             System.out.println("| || | boolean resultado=(5>3||3<4) | devuelve true si al    ");
+                             System.out.println("|    | menos una de ellas es true                            ");
+                             System.out.println("| !  | boolean resultado =!(5>3) | invierte el valor de un   ");
+                             System.out.println("|      operando booleano.Resultado:false                     ");
+                             System.out.println("-------------------------------------------------------------");
                              break;
                          case 4:
-                             System.out.println("--------------------------------------------------------");
-                             System.out.println("-                  ASIGNACION                          -");
-                             System.out.println("--------------------------------------------------------");
-                             System.out.println(" = int a=5; asigna el valor del operando derecho al     ");
-                             System.out.println("   operando izquierdo                                   ");
-                             System.out.println(" += int a=5;a+=3; suma el operando derecho al operando  ");
-                             System.out.println("    al operando izquierdo y asigna el resultado al      ");
-                             System.out.println("    operando izquierdo.Resultado:8                      ");
-                             System.out.println(" -= int a=5;a-=3; resta el operando derecho del         ");
-                             System.out.println("    operando izquierdo y asigna el resultado al operando");
-                             System.out.println("    izquierdo.Resultado:2                               ");
-                             System.out.println(" *= int a=5;a*=3; multiplica el operando derecho por    ");
-                             System.out.println("    el operando izquierdo y asigna el resultado al      ");
-                             System.out.println("    operando izquierdo.Resultado:15                     ");
-                             System.out.println(" /= int a=6;a/=3; divide el operando izquierdo por el   ");
-                             System.out.println("    operando derecho y asigna el resultado al           ");
-                             System.out.println("    operando izquierdo.Resultado:2                      ");
-                             System.out.println(" %= int a=5;a%=3; cálcula el módulo del operando        ");
-                             System.out.println("    izquierdo por el operando derecho y asigna el       ");
-                             System.out.println("    resultado al operando izquierdo.Resultado:2         ");
-                             System.out.println("--------------------------------------------------------");
+                             System.out.println("------------------------------------------------------------");
+                             System.out.println("-                      ASIGNACION                          -");
+                             System.out.println("------------------------------------------------------------");
+                             System.out.println("| = | int a=5 | asigna el valor del operando derecho al     ");
+                             System.out.println("|     operando izquierdo                                    ");
+                             System.out.println("| +=| int a=5;a+=3 | suma el operando derecho al operando   ");
+                             System.out.println("|     al operando izquierdo y asigna el resultado al        ");
+                             System.out.println("|     operando izquierdo.Resultado:8                        ");
+                             System.out.println("| -=| int a=5;a-=3 | resta el operando derecho del          ");
+                             System.out.println("|     operando izquierdo y asigna el resultado al operando  ");
+                             System.out.println("|     izquierdo.Resultado:2                                 ");
+                             System.out.println("| *=| int a=5;a*=3 | multiplica el operando derecho por     ");
+                             System.out.println("|     el operando izquierdo y asigna el resultado al        ");
+                             System.out.println("|     operando izquierdo.Resultado:15                       ");
+                             System.out.println("| /=| int a=6;a/=3 | divide el operando izquierdo por el    ");
+                             System.out.println("|     operando derecho y asigna el resultado al             ");
+                             System.out.println("|     operando izquierdo.Resultado:2                        ");
+                             System.out.println("| %=| int a=5;a%=3 | cálcula el módulo del operando         ");
+                             System.out.println("|     izquierdo por el operando derecho y asigna el         ");
+                             System.out.println("|     resultado al operando izquierdo.Resultado:2           ");
+                             System.out.println("------------------------------------------------------------");
                              break;
                          case 5:
-                             System.out.println("--------------------------------------------------------");
-                             System.out.println("-                  INCREMENTO/DECREMENTO               -");
-                             System.out.println("--------------------------------------------------------");
-                             System.out.println(" ++ int a=5;a++; incrementa el valor del operando en 1  ");
-                             System.out.println("    Resultado:6                                         ");
-                             System.out.println(" -- int a=5;a--; decrementa el valor del operando en 1  ");
-                             System.out.println("    Resultado:4                                         ");
-                             System.out.println("--------------------------------------------------------");
+                             System.out.println("-----------------------------------------------------------");
+                             System.out.println("-                     INCREMENTO/DECREMENTO               -");
+                             System.out.println("-----------------------------------------------------------");
+                             System.out.println("| ++ | int a=5;a++; incrementa el valor del operando en 1  ");
+                             System.out.println("|      Resultado:6                                         ");
+                             System.out.println("| -- | int a=5;a--; decrementa el valor del operando en 1  ");
+                             System.out.println("|      Resultado:4                                         ");
+                             System.out.println("-----------------------------------------------------------");
                              break;
                          case 0:
                              System.out.println("--------------------------------------------------------");
@@ -442,6 +442,54 @@ public class Main {
                             System.out.println("---------------------------------------------------------");
                             break;
                         case 4:
+                            System.out.println("---------------------------------------------------------");
+                            System.out.println("-                        EJEMPLO                        -");
+                            System.out.println("---------------------------------------------------------");
+
+                            int A;
+                            int B;
+                            int C;
+                            System.out.println("ingrese valor para A: ");
+                            Scanner scannerLea = new Scanner(System.in);
+                            A = scannerLea.nextInt();
+                            System.out.println("ingrese valor para B: ");
+                            B = scannerLea.nextInt();
+                            System.out.println("ingrese valor para C: ");
+                            C = scannerLea.nextInt();
+
+                            if (A != B && B != C && C != A) {
+                                if (A > B && A > C) {
+                                    System.out.println("A es el mayor ");
+                                    if (B > C) {
+                                        System.out.println("C es el Menor ");
+                                    } else {
+                                        System.out.println("B es el Menor ");
+                                    }
+
+                                } else if (B > A && B > C) {
+                                    System.out.println("B es el mayor ");
+                                    if (A > C) {
+                                        System.out.println("C es el Menor ");
+                                    } else {
+                                        System.out.println("A es el Menor ");
+                                    }
+
+                                } else {
+                                    System.out.println("C es el mayor ");
+                                    if (A > B) {
+                                        System.out.println("B es el Menor ");
+                                    } else {
+                                        System.out.println("A es el Menor ");
+                                    }
+
+                                }
+
+                            } else {
+                                System.out.println("Los valores no pueden ser iguales ");
+
+                            }
+
+
                             break;
                         case 0:
                             System.out.println("--------------------------------------------------------");
@@ -779,7 +827,7 @@ public class Main {
         }
 
       //Para pausar la ejecución del programa
-      
+
 
      /* scannerMenu.nextLine(); //Limpiamos buffer del System.in
       System.out.println("\n\t\tPRESIONE ENTER PARA CONTINUAR..."); //Mensaje en pantalla
