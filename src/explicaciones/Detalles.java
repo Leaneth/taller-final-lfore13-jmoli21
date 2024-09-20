@@ -250,5 +250,54 @@ public class Detalles {
         System.out.println("---------------------------------------------------------");
     }
 
+    public static void explicacionSwitch(){
+        System.out.println("-------------------------------------------------");
+        System.out.println("-                   Qué es Switch               -");
+        System.out.println("-El switch en Java es una estructura de control  \n-que permite ejecutar diferentes bloques de código \n-en función del valor de una variable. En Java,-  \n-esta estructura es ideal cuando se tienen múltiples  \n-caminos posibles y se desea simplificar la lógica \nde decisión. ");
+    }
+
+    public static void sintaxiSwitch(){
+        System.out.println("-------------------------------------------------");
+        System.out.println("-                   Sintaxis                    -");
+        System.out.println("switch(x) {     \ncase 'valor1':  // if (x === 'valor1') \n...  \nbreak; \ncase 'valor2':  // if (x === 'valor2') \n... \n;break  \ndefault:   \n...  \nbreak }");
+        System.out.println("-------------------------------------------------");
+    }
+
+    public static void explicacionTernaria(){
+        System.out.println("-------------------------------------------------");
+        System.out.println("-               Operador Ternario               -");
+        System.out.println("-El operador ternario es otro de los operadores \ncondicionales. Es una forma reducida de escribir \nun if-then-else. Este es representado mediante el \nsímbolo ?:La estructura del operador ternario es: \n(expresion)?valor_true:valor_false;");
+    }
+
+    public static void explicacionDoWhile(){
+        System.out.println("-------------------------------------------------");
+        System.out.println("-               Bucle DO WHILE                  -");
+        System.out.println("- La sentencia do-while en Java es una estructura \nde control de ciclo que ejecuta un bloque de \ncódigo una o más veces mientras se cumple \nuna condición específica.");
+        System.out.println("-------------------------------------------------");
+        System.out.println("- El ciclo do-while en Java se utiliza cuando se \ndesea garantizar que el código se ejecute al \nmenos una vez, independientemente de si se \ncumple la condición.");
+        System.out.println("- Su estructura sería la siguinte: \nint i = 1; \ndo { \nSystem.out.println(i);  \ni++;   \n} while (i <= 10); ");
+    }
+
+    public static void explicacionWhile(){
+        System.out.println("-------------------------------------------------");
+        System.out.println("-               Ciclo  WHILE                    -");
+        System.out.println("- Este nos permiten ejecutar una o varias líneas \nde código de manera repetitiva sin necesidad de \ntener un valor inicial e incluso a veces sin \nsiquiera conocer cuando se va a dar el valor \nfinal que esperamos, los ciclos while, no \ndependen directamente de valores numéricos, \nsino de valores booleanos, es decir su ejecución \ndepende del valor de verdad de una condición \ndada, verdadera o falso, nada más");
+        System.out.println("-------------------------------------------------");
+        System.out.println("- Su estructura es la siguiente: \nwhile(condición de finalización) //por ejemplo numero == 500    \n{     \n....    \n....     \nBloque de Instrucciones....       \n....       \n....         \n} ");
+        System.out.println("-------------------------------------------------");
+    }
+
+    public static void explicacionFor(){
+        System.out.println("-------------------------------------------------");
+        System.out.println("-               Ciclo  FOR                      -");
+        System.out.println("- El bucle for en Java, es una estructura lógica \nque te permite realizar una y otra vez una acción, \nsiempre y cuando se cumpla una condición booleana");
+        System.out.println("-------------------------------------------------");
+        System.out.println("- Su estructura es la siguiente: \nfor (inicialización; condición; actualización) \n{ // bloque de código a ejecutar \n}");
+        System.out.println("-------------------------------------------------");
+    }
+
+
+
+
 
 }
